@@ -1,0 +1,11 @@
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    border: thick double lightblue;
+    padding: 1rem;
+}
+
+.title {
+    font-weight: 0.9rem;
+}
+

@@ -2,11 +2,11 @@ import WordCard from './wordcard';
 import style from './cardlist.module.css';
 
 
-function CardList({ words }){
+function CardList({ wordlist }){
     return (
         <div className={ style.list }>
-            { !!words && words.map(item => 
-                <WordCard key={ item.word } word={ item } />
+            { !!wordlist && wordlist.map(item => 
+                <WordCard key={ item.word } wordinfo={ item } />
             ) }
         </div>
     );

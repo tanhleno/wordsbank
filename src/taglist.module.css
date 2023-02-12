@@ -1,0 +1,19 @@
+.list {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+.tag {
+    background-color: lightblue;
+    font-size: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.selected {
+    background-color: lightskyblue;
+}
+

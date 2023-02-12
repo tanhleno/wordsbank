@@ -3,8 +3,15 @@
     flex-flow: column nowrap;
     border: thick double lightblue;
     padding: 1rem;
+    width: 300px;
+    height: 250px;
 }
 
 .title {
+    margin-bottom: 0.25em;
+}
+
+.subtitle {
+    margin: 2em 0 0 0;
 }
 
